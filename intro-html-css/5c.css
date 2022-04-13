@@ -1,0 +1,33 @@
+p {
+  font-family: Verdana;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.course-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 2px;
+}
+
+.course-level {
+  font-size: 18px;
+  color: gray;
+  margin-bottom: 15px;
+}
+
+.course-description {
+  font-size: 16px;
+  width: 300px;
+  margin-bottom: 15px;
+}
+
+button {
+background-color: rgb(0, 128, 0);
+color: white;
+border: none;
+border-radius: 5px;
+padding: 5px 10px;
+cursor: pointer;
+}

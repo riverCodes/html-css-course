@@ -1,0 +1,8 @@
+button, .survey {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.survey{
+  width: 200px;
+}

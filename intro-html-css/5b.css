@@ -1,0 +1,17 @@
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.black-text {
+  font-weight: bold;
+  margin-bottom: 4px;
+  font-size: 20px;
+}
+
+.red-text {
+  font-style: italic;
+  color: red;
+  font-size: 14px;
+}

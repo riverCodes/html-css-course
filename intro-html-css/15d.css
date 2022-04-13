@@ -1,0 +1,36 @@
+body {
+    height: 3000px;
+}
+div {
+    font-family: Arial;
+}
+.video-popup {
+    position: fixed;
+    background-color: gray;
+    bottom: 10px;
+    right: 10px;
+    width: 320px;
+    height: 180px;
+}
+.close-button {
+    background-color: black;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    position: absolute;
+    left: -16px;
+    top: -16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.video-time {
+    background-color: black;
+    color: white;
+    padding: 3px 5px;
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+    font-size: 15px;
+}

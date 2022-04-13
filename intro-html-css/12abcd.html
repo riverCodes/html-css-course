@@ -1,0 +1,62 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>FlexBox</title>
+        <style>
+            .flex {
+                display: flex;
+                flex-direction: row;
+                margin: 10px;
+            }
+            .one {
+                background-color: lightblue;
+                width: 200px;
+            }
+            .two {
+                background-color: lightpink;
+                width: 75px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex">
+            <div class="one">200px</div>
+            <div class="two">75px</div>
+        </div>
+
+        <div class="flex">
+            <div style="background-color: lightblue;
+                        width: 50px;
+            ">item1</div>
+            <div style="background-color: lightpink;
+                        flex: 1;
+            ">item2</div>
+            <div style="background-color: lightblue;
+                        width: 75px;
+            ">item3</div>
+        </div>
+
+            <div style="display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        margin-bottom: 10px;
+            ">
+                <div style="background-color: lightpink;">item1</div>
+                <div style="background-color: lightpink;">item2</div>
+                <div style="background-color: lightpink;">item3</div>
+                <div style="background-color: lightpink;">item4</div>
+            </div>
+
+            <div style="display: flex;
+                        flex-direction: row;
+                        height: 50px;
+                        border: solid;
+                        border-width: 1px;
+                        align-items: center;
+                        justify-content: space-between;
+            ">
+                <div style="background-color: lightpink;">item1</div>
+                <div style="background-color: lightpink;">item2</div>
+            </div>
+    </body>
+</html>

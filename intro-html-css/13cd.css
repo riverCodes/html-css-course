@@ -1,0 +1,64 @@
+body    {
+    margin: 0;
+    padding: 20px;
+}
+p   {
+    font-family: roboto,Arial;
+    margin: 0;
+}
+.container  {
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+    width: 375px;
+    padding: 10px 15px;
+}
+.header {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.inbox  {
+    color: #878787;
+    font-size: 14px;
+}
+.email-card {
+    width: 100%;
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.email-author-picture-container {
+}
+.email-author-picture {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.email-info-preview {
+    flex: 1;
+}
+.email-author-row {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.email-author {
+    font-weight: 500;
+    font-size: 18px;
+}
+.time {
+    color: #838383;
+    font-size: 14px;
+}
+.email-title {
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.email-body {
+    color: #838383;
+    font-size: 15px;
+}

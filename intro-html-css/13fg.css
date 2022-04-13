@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 20px;
+}
+div {
+    font-family: roboto, Arial;
+    
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 12px;
+    width: 470px;
+}
+.twitter-avi-container {
+    
+}
+.twitter-avi {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+.tweet-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    row-gap: 5px;
+}
+.tweet-author {
+    display: flex;
+    column-gap: 3px;
+}
+.username {
+    font-size: 19px;
+}
+.handle {
+    color: #5b5b5d;
+    font-size: 18px;
+}
+.tweet-body {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 6px;
+}
+.embed-container {
+    display: flex;
+    flex-direction: row;
+    border: solid;
+    border-width: 2px;
+    border-color: #d8dee2;
+    border-radius: 20px;
+    column-gap: 15px;
+    align-items: center;
+    flex: 1;
+    overflow: hidden;
+}
+.embed-thumbnail {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.youtube-link {
+    color: rgb(100, 100, 100);
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.video-title {
+    flex: 1;
+    font-size: 18px;
+    line-height: 24px;
+}

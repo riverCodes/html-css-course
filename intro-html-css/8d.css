@@ -1,0 +1,41 @@
+input {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  padding: 10px 10px;
+  border-style: solid;
+  border-width: 1.5px;
+  border-radius: 5px;
+  border-color: rgb(199, 199, 199);
+}
+
+.first-name, .last-name {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.email {
+  display: block;
+  width: 328px;
+  margin-bottom: 10px;
+}
+
+.sign-up-button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(0, 119, 255);
+  color: white;
+  padding: 15px 138px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.sign-up-button:hover {
+  opacity: 0.7;
+}
+
+.sign-up-button:active {
+  opacity: 0.5;
+}

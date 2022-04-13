@@ -1,0 +1,31 @@
+img {
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  object-fit: cover;
+  object-position: 30% 50%;
+  vertical-align: middle;
+}
+
+input {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-size: 16px;
+  border: none;
+  margin-left: 2px;
+  padding-left: 5px;
+  width: 250px;
+  vertical-align: middle;
+  
+}
+
+button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: white;
+  background: rgb(82, 161, 252);
+  border: none;
+  padding: 6px 12px;
+  border-radius: 30px;
+  vertical-align: middle;
+}

@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>YouTube Clone!</title>
+        <link rel="stylesheet" href="/youtube-clone/styles/video.css">
+        <link rel="stylesheet" href="/youtube-clone/styles/body.css">
+        <link rel="stylesheet" href="/youtube-clone/styles/header.css">
+        <link rel="stylesheet" href="/youtube-clone/styles/sidebar.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <header class="header">
+            <div class="left-section">
+                <img class="hamburger-icon" src="/icons/hamburger-menu.svg">
+                <img class="youtube-icon" src="/icons/youtube-logo.svg">
+            </div>
+            <div class="middle-section">
+                <input class="search-bar" type="text" placeholder="Search">
+                <button class="search-button">
+                    <img class="search-icon" src="/icons/search.svg">
+                    <div class="tooltip">
+                        Search
+                    </div>
+                </button>
+                <button class="voice-search-button">
+                    <img class="voice-search-icon" src="/icons/voice-search-icon.svg">
+                    <div class="tooltip">
+                        Search with your voice
+                    </div>
+                </button>
+            </div>
+            <div class="right-section">
+                <div class="header-icon-upload">
+                    <img class="upload-icon" src="/icons/upload.svg">
+                    <div class="tooltip">
+                        Create
+                    </div>
+                </div>
+                <div class="header-icon-youtube-apps">
+                    <img class="youtube-apps-icon" src="/icons/youtube-apps.svg">
+                    <div class="tooltip">
+                        YouTube Apps
+                    </div>
+                </div>
+                <div class="header-icon-notifications">
+                    <img class="notifications-icon" src="/icons/notifications.svg">
+                    <div class="tooltip">
+                        Notifications
+                    </div>
+                    <div class="notification-number">3</div>
+                </div>
+                <div class="my-channel-container">
+                    <a class="my-channel-link">
+                        <img class="my-channel-picture" src="/channels/my-channel.jpeg">
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <nav class="sidebar">
+            <div class="home-icon-row">
+                <img class="home-icon" src="/icons/home.svg">
+                <div>Home</div>
+            </div>
+            <div class="explore-icon-row">
+                <img class="explore-icon" src="/icons/explore.svg">
+                <div>Explore</div>
+            </div>
+            <div class="subscriptions-icon-row">
+                <img class="subscriptions-icon" src="/icons/subscriptions.svg">
+                <div>Subscriptions</div>
+            </div>
+            <div class="originals-icon-row">
+                <img class="originals-icon" src="/icons/originals.svg">
+                <div>Originals</div>
+            </div>
+            <div class="youtube-music-icon-row">
+                <img class="youtube-music-icon" src="/icons/youtube-music.svg">
+                <div>Youtube Music</div>
+            </div>
+            <div class="library-icon-row">
+                <img class="library-icon" src="/icons/library.svg">
+                <div>Library</div>
+            </div>
+        </nav>
+
+        <main class="video-grid">
+
+            <div class="video-card">
+                <div class="thumbnail-card">
+                    <a class="link" href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+                        <img class="thumbnail" src="/thumbnails/thumbnail-1.webp">
+                    </a>
+                    <div class="video-time">14:20</div>
+                </div>
+                <div class="info-card">
+                    <div class="channel-picture-container">
+                        <a class="link" href="https://www.youtube.com/c/mkbhd">
+                            <img class="channel-picture" src="/channels/channel-1.jpeg">
+                        </a>
+                    </div>
+                    <div class="text-card">
+                        <div class="video-title-row">
+                            <a class="link" href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+                                <p class="video-title">
+                                    Talking Tech and AI with Google CEO Sundar Pichai!
+                                </p>
+                            </a>
+                        </div>
+                        <div class="video-author-row">
+                            <a class="link" href="https://www.youtube.com/c/mkbhd">
+                                <p class="video-author">
+                                    Marques Brownlee
+                                </p>
+                            </a>
+                            <div class="tooltip">
+                                Marques Brownlee
+                            </div>
+                        </div>
+                        <div class="video-stats-row">
+                            <p class="video-stats">
+                                3.4M views &middot; 6 months ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <div class="thumbnail-card">
+                    <a class="link" href="https://www.youtube.com/watch?v=mP0RAo9SKZk">
+                        <img class="thumbnail" src="/thumbnails/thumbnail-2.webp">
+                    </a>
+                    <div class="video-time">14:20</div>
+                </div>
+                <div class="info-card">
+                    <div class="channel-picture-container">
+                        <a class="link" href="https://www.youtube.com/c/markiplier">
+                            <img class="channel-picture" src="/channels/channel-2.jpeg">
+                        </a>
+                    </div>
+                    <div class="text-card">
+                        <div class="video-title-row">
+                            <a class="link" href="https://www.youtube.com/watch?v=mP0RAo9SKZk">
+                                <p class="video-title">
+                                    Try Not To Laugh Challenge #9
+                                </p>
+                            </a>
+                        </div>
+                        <div class="video-author-row">
+                            <a class="link" href="https://www.youtube.com/c/markiplier">
+                                <p class="video-author">
+                                    Markiplier
+                                </p>
+                            </a>
+                            <div class="tooltip">
+                                Markiplier
+                            </div>
+                        </div>
+                        <div class="video-stats-row">
+                            <p class="video-stats">
+                                19M views &middot; 4 years ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <div class="thumbnail-card">
+                    <a class="link" href="https://www.youtube.com/watch?v=FgjPQQeTh1w">
+                        <img class="thumbnail" src="/thumbnails/thumbnail-3.webp">
+                    </a>
+                    <div class="video-time">14:20</div>
+                </div>
+                <div class="info-card">
+                    <div class="channel-picture-container">
+                        <a class="link" href="https://www.youtube.com/user/SSSniperWolf">
+                            <img class="channel-picture" src="/channels/channel-3.jpeg">
+                        </a>
+                    </div>
+                    <div class="text-card">
+                        <div class="video-title-row">
+                            <a class="link" href="https://www.youtube.com/watch?v=FgjPQQeTh1w">
+                                <p class="video-title">
+                                    Crazy Tik Toks Taken Moments Before DISASTER
+                                </p>
+                            </a>
+                        </div>
+                        <div class="video-author-row">
+                            <a class="link" href="https://www.youtube.com/user/SSSniperWolf">
+                                <p class="video-author">
+                                    SSSniperWolf
+                                </p>
+                            </a>
+                            <div class="tooltip">
+                                SSSniperWolf
+                            </div>
+                        </div>
+                        <div class="video-stats-row">
+                            <p class="video-stats">
+                                12M views &middot; 1 year ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <div class="thumbnail-card">
+                    <a class="link" href="https://www.youtube.com/watch?v=FgjPQQeTh1w">
+                        <img class="thumbnail" src="/thumbnails/thumbnail-4.webp">
+                    </a>
+                    <div class="video-time">14:20</div>
+                </div>
+                <div class="info-card">
+                    <div class="channel-picture-container">
+                        <a class="link" href="https://www.youtube.com/c/veritasium">
+                            <img class="channel-picture" src="/channels/channel-4.jpeg">
+                        </a>
+                    </div>
+                    <div class="text-card">
+                        <div class="video-title-row">
+                            <a class="link" href="https://www.youtube.com/watch?v=FgjPQQeTh1w">
+                                <p class="video-title">           
+                                    The Simplest Math Problem No One Can Solve - Collatz Conjecture 
+                                </p>
+                            </a>
+                        </div>
+                        <div class="video-author-row">
+                            <a class="link" href="https://www.youtube.com/c/veritasium">
+                                <p class="video-author">
+                                    Veritasium
+                                </p>
+                            </a>
+                            <div class="tooltip">
+                                Veritasium
+                            </div>
+                        </div>
+                        <div class="video-stats-row">
+                            <p class="video-stats">
+                                18M views &middot; 4 months ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <div class="thumbnail-card">
+                    <a class="link" href="https://www.youtube.com/watch?v=yXWw0_UfSFg">
+                        <img class="thumbnail" src="/thumbnails/thumbnail-6.webp">
+                    </a>
+                    <div class="video-time">14:20</div>
+                </div>
+                <div class="info-card">
+                    <div class="channel-picture-container">
+                        <a class="link" href="https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA">
+                            <img class="channel-picture" src="/channels/channel-6.jpeg">
+                        </a>
+                    </div>
+                    <div class="text-card">
+                        <div class="video-title-row">
+                            <a class="link" href="https://www.youtube.com/watch?v=yXWw0_UfSFg">
+                                <p class="video-title">
+                                    Anything You Can Fit In The Circle I'll Pay For 
+                                </p>
+                            </a>
+                        </div>
+                        <div class="video-author-row">
+                            <a class="link" href="https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA">
+                                <p class="video-author">
+                                    MrBeast
+                                </p>
+                            </a>
+                            <div class="tooltip">
+                                MrBeast
+                            </div>
+                        </div>
+                        <div class="video-stats-row">
+                            <p class="video-stats">
+                                3.4M views &middot; 6 months ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <div class="thumbnail-card">
+                    <a class="link" href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+                        <img class="thumbnail" src="/thumbnails/thumbnail-1.webp">
+                    </a>
+                    <div class="video-time">14:20</div>
+                </div>
+                <div class="info-card">
+                    <div class="channel-picture-container">
+                        <a class="link" href="https://www.youtube.com/c/mkbhd">
+                            <img class="channel-picture" src="/channels/channel-1.jpeg">
+                        </a>
+                    </div>
+                    <div class="text-card">
+                        <div class="video-title-row">
+                            <a class="link" href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+                                <p class="video-title">
+                                    Talking Tech and AI with Google CEO Sundar Pichai!
+                                </p>
+                            </a>
+                        </div>
+                        <div class="video-author-row">
+                            <a class="link" href="https://www.youtube.com/c/mkbhd">
+                                <p class="video-author">
+                                    Marques Brownlee
+                                </p>
+                            </a>
+                            <div class="tooltip">
+                                Marques Brownlee
+                            </div>
+                        </div>
+                        <div class="video-stats-row">
+                            <p class="video-stats">
+                                3.4M views &middot; 6 months ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <div class="thumbnail-card">
+                    <a class="link" href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+                        <img class="thumbnail" src="/thumbnails/thumbnail-1.webp">
+                    </a>
+                    <div class="video-time">14:20</div>
+                </div>
+                <div class="info-card">
+                    <div class="channel-picture-container">
+                        <a class="link" href="https://www.youtube.com/c/mkbhd">
+                            <img class="channel-picture" src="/channels/channel-1.jpeg">
+                        </a>
+                    </div>
+                    <div class="text-card">
+                        <div class="video-title-row">
+                            <a class="link" href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+                                <p class="video-title">
+                                    Talking Tech and AI with Google CEO Sundar Pichai!
+                                </p>
+                            </a>
+                        </div>
+                        <div class="video-author-row">
+                            <a class="link" href="https://www.youtube.com/c/mkbhd">
+                                <p class="video-author">
+                                    Marques Brownlee
+                                </p>
+                            </a>
+                            <div class="tooltip">
+                                Marques Brownlee
+                            </div>
+                        </div>
+                        <div class="video-stats-row">
+                            <p class="video-stats">
+                                3.4M views &middot; 6 months ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <div class="thumbnail-card">
+                    <a class="link" href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+                        <img class="thumbnail" src="/thumbnails/thumbnail-1.webp">
+                    </a>
+                    <div class="video-time">14:20</div>
+                </div>
+                <div class="info-card">
+                    <div class="channel-picture-container">
+                        <a class="link" href="https://www.youtube.com/c/mkbhd">
+                            <img class="channel-picture" src="/channels/channel-1.jpeg">
+                        </a>
+                    </div>
+                    <div class="text-card">
+                        <div class="video-title-row">
+                            <a class="link" href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+                                <p class="video-title">
+                                    Talking Tech and AI with Google CEO Sundar Pichai!
+                                </p>
+                            </a>
+                        </div>
+                        <div class="video-author-row">
+                            <a class="link" href="https://www.youtube.com/c/mkbhd">
+                                <p class="video-author">
+                                    Marques Brownlee
+                                </p>
+                            </a>
+                            <div class="tooltip">
+                                Marques Brownlee
+                            </div>
+                        </div>
+                        <div class="video-stats-row">
+                            <p class="video-stats">
+                                3.4M views &middot; 6 months ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <div class="thumbnail-card">
+                    <a class="link" href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+                        <img class="thumbnail" src="/thumbnails/thumbnail-1.webp">
+                    </a>
+                    <div class="video-time">14:20</div>
+                </div>
+                <div class="info-card">
+                    <div class="channel-picture-container">
+                        <a class="link" href="https://www.youtube.com/c/mkbhd">
+                            <img class="channel-picture" src="/channels/channel-1.jpeg">
+                        </a>
+                    </div>
+                    <div class="text-card">
+                        <div class="video-title-row">
+                            <a class="link" href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+                                <p class="video-title">
+                                    Talking Tech and AI with Google CEO Sundar Pichai!
+                                </p>
+                            </a>
+                        </div>
+                        <div class="video-author-row">
+                            <a class="link" href="https://www.youtube.com/c/mkbhd">
+                                <p class="video-author">
+                                    Marques Brownlee
+                                </p>
+                            </a>
+                            <div class="tooltip">
+                                Marques Brownlee
+                            </div>
+                        </div>
+                        <div class="video-stats-row">
+                            <p class="video-stats">
+                                3.4M views &middot; 6 months ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <div class="thumbnail-card">
+                    <a class="link" href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+                        <img class="thumbnail" src="/thumbnails/thumbnail-1.webp">
+                    </a>
+                    <div class="video-time">14:20</div>
+                </div>
+                <div class="info-card">
+                    <div class="channel-picture-container">
+                        <a class="link" href="https://www.youtube.com/c/mkbhd">
+                            <img class="channel-picture" src="/channels/channel-1.jpeg">
+                        </a>
+                    </div>
+                    <div class="text-card">
+                        <div class="video-title-row">
+                            <a class="link" href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+                                <p class="video-title">
+                                    Talking Tech and AI with Google CEO Sundar Pichai!
+                                </p>
+                            </a>
+                        </div>
+                        <div class="video-author-row">
+                            <a class="link" href="https://www.youtube.com/c/mkbhd">
+                                <p class="video-author">
+                                    Marques Brownlee
+                                </p>
+                            </a>
+                            <div class="tooltip">
+                                Marques Brownlee
+                            </div>
+                        </div>
+                        <div class="video-stats-row">
+                            <p class="video-stats">
+                                3.4M views &middot; 6 months ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <div class="thumbnail-card">
+                    <a class="link" href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+                        <img class="thumbnail" src="/thumbnails/thumbnail-1.webp">
+                    </a>
+                    <div class="video-time">14:20</div>
+                </div>
+                <div class="info-card">
+                    <div class="channel-picture-container">
+                        <a class="link" href="https://www.youtube.com/c/mkbhd">
+                            <img class="channel-picture" src="/channels/channel-1.jpeg">
+                        </a>
+                    </div>
+                    <div class="text-card">
+                        <div class="video-title-row">
+                            <a class="link" href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+                                <p class="video-title">
+                                    Talking Tech and AI with Google CEO Sundar Pichai!
+                                </p>
+                            </a>
+                        </div>
+                        <div class="video-author-row">
+                            <a class="link" href="https://www.youtube.com/c/mkbhd">
+                                <p class="video-author">
+                                    Marques Brownlee
+                                </p>
+                            </a>
+                            <div class="tooltip">
+                                Marques Brownlee
+                            </div>
+                        </div>
+                        <div class="video-stats-row">
+                            <p class="video-stats">
+                                3.4M views &middot; 6 months ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

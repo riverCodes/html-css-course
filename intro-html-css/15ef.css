@@ -1,0 +1,47 @@
+body {
+    height: 3000px;
+    padding: 10px;
+}
+.item-container {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+}
+.item {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 50% 60%;
+}
+.sale-tag {
+    position: absolute;
+    top: 8px;
+    right: 0px;
+    background-color: black;
+    color: white;
+    padding: 5px 12px;
+    font-family: Arial;
+    font-size: 14px;
+}
+.overlay {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.85);
+    bottom: 0;
+    height: 100px;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.add-button {
+    position: absolute;
+    font-size: 12px;
+    background-color: white;
+    border: solid;
+    border-width: 1px;
+    font-family: Arial;
+    padding: 8px 12px;
+    cursor: pointer;
+}

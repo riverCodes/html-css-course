@@ -1,0 +1,24 @@
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+
+}
+
+.title-text {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.body-text  {
+  font-size: 11px;
+  margin-bottom: 15px;
+}
+
+.link {
+  cursor: pointer;
+  font-size: 11px;
+  color: rgb(0, 102, 255);
+}

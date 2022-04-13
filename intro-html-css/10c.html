@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Youtube Feed
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+      .video-preview {
+        margin-bottom: 20px;
+        cursor: pointer;
+      }
+      p {
+        font-family: roboto, Arial;
+        margin: 0;
+      }
+      .thumbnail, .preview-info {
+        display: inline-block;
+        vertical-align: top;
+      }
+      .thumbnail {
+        width: 300px;
+        height: 150px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+      }
+      .preview-info {
+        margin-left: 10px;
+      }
+      .video-thumbnail {
+        width: 300px;
+        height: 150px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 1px;
+      }
+      .preview-info {
+        width: 250px;
+        height: 150px;
+      }
+      .video-title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 10px;
+        margin-top: 5px;
+      }
+      .video-author, .video-stats {
+        font-weight: 400;
+        font-size: 15px;
+        color: rgb(66, 66, 66);
+        margin-bottom: 8px;
+        margin-top: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <div class= "video-preview">
+      <div class="thumbnail">
+        <img class="video-thumbnail" src="/thumbnails/thumbnail-1.webp">
+      </div>
+
+      <div class="preview-info">
+        <p class="video-title">          
+          Talking Tech and AI with Google CEO Sundar Pichai!
+        </p>
+        <p class="video-author">
+          Marques Brownlee
+        </p>
+        <p class="video-stats">
+          3.4M views &middot; 6 months ago
+        </p>
+      </div>
+  </div>
+  
+  <div class= "video-preview">
+    <div class="thumbnail">
+      <img class="video-thumbnail" src="/thumbnails/thumbnail-2.webp">
+    </div>
+
+    <div class="preview-info">
+      <p class="video-title">
+        Try Not To Laugh Challenge #9
+      </p>
+      <p class="video-author">
+        Markiplier
+      </p>
+      <p class="video-stats">
+        19M views &middot; 4 years ago
+      </p>
+    </div>
+  </div>
+
+  <div class= "video-preview">
+    <div class="thumbnail">
+      <img class="video-thumbnail" src="/thumbnails/thumbnail-3.webp">
+    </div>
+
+    <div class="preview-info">
+      <p class="video-title">
+        Crazy Tik Toks Taken Moments Before DISASTER
+      </p>
+      <p class="video-author">
+        SSSniperWolf
+      </p>
+      <p class="video-stats">
+        12M views &middot; 1 year ago 
+      </p>
+    </div>
+  </div>
+
+  </body>
+</html>

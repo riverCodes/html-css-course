@@ -1,0 +1,25 @@
+div {
+  background-color: rgb(43, 43, 43);
+  height: 145px;
+  width: 480px;
+}
+
+.youtube-music, .additional-text {
+  font-family: 'Roboto', sans-serif;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.youtube-music {
+  font-weight: bold;
+  color: white;
+  font-size: 25px;
+  padding-top: 25px;
+  margin-bottom: 10px;
+}
+
+.additional-text {
+  color: rgb(153, 153, 153);
+  font-size: 20px;
+  line-height: 20px;
+}

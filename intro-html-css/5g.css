@@ -1,0 +1,26 @@
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.username {
+  color: rgb(116, 116, 116);
+  font-weight: normal;
+}
+
+.tweet {
+  width: 400px;
+  margin-bottom: 12px;
+}
+
+.at {
+  color: rgb(55, 165, 255);
+}

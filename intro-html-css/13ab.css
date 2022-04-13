@@ -1,0 +1,28 @@
+.container   {
+    display: flex;
+    margin-bottom: 25px;
+}
+.pink   {
+    background-color: lightpink;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blue   {
+    background-color: lightblue;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.row-two    {
+    display: flex;
+    justify-content: space-between;
+}
+.element    {
+    margin: 0;
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,15 @@
+body {
+    height: 3000px;
+}
+.close-button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: black;
+    border: none;
+    color: white;
+    width: 30px;    
+    border-radius: 15px;
+    height: 30px;
+    cursor: pointer;
+}

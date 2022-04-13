@@ -1,0 +1,31 @@
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.price {
+  font-size: 20px;
+  margin-bottom: 2px;
+}
+
+.unit {
+  font-size: 10px;
+  color: gray;
+  margin-left: 4px;
+}
+
+.stocks-up {
+  color: green;
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+
+.stocks-down {
+  color: gray;
+  font-size: 10px;
+}  
+
+.negative {
+  color: red;
+}

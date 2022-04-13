@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: #7153ab;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 5px 15px;
+    column-gap: 10px;
+}
+p {
+    color: white;
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 16px;
+}
+input {
+    padding: 8px 20px;
+    max-width: 600px;
+    border-radius: 25px;
+    border: none;
+    margin-left: 75px;
+    margin-right: 75px;
+    flex: 1;
+}
+button {
+    padding: 9px 18px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    background-color: #7153ab;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+}
+body {
+    padding: 25px;
+}
